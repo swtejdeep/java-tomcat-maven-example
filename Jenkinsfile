@@ -24,10 +24,7 @@ pipeline {
             steps{
 
                 build job : 'Pipeline-Deploy-Staging'
-
+                 }
              }
-           }
-        }
     }
 }
-
